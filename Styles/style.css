@@ -1,0 +1,1443 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+#navegacion {
+    background-color: white; 
+    width: 100%;
+    height: 9vh;
+    text-align: center;
+    padding-top: 2px;  
+    display: flex;
+    position: fixed;
+}
+#navegacion h2{
+    list-style: none;
+    display: inline-block;
+    text-decoration: none;
+    color: #9D6A5D;
+    font-style: oblique;
+    font-size: 1.4rem;
+}
+.biografia{
+    margin-right: 10%;
+    padding: 10px 60px;
+    font-weight: bold;
+    background: none;
+    border: 2px solid #9D6A5D;
+    color: #9D6A5D;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px -1px #9D6A5D;
+}
+.album{
+    margin-right: 5%;
+    padding: 10px 60px;
+    font-weight: bold;
+    background: none;
+    border: 2px solid #9D6A5D;
+    color: #9D6A5D;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px -1px #9D6A5D;
+}
+.formulario{
+    margin-left: 5%;
+    padding: 10px 60px;
+    font-weight: bold;
+    background: none;
+    border: 2px solid #9D6A5D;
+    color: #9D6A5D;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px -1px #9D6A5D;
+}
+.referencias{
+    margin-left: 10%;
+    padding: 10px 60px;
+    font-weight: bold;
+    background: none;
+    border: 2px solid #9D6A5D;
+    color: #9D6A5D;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px -1px #9D6A5D;
+}
+
+
+#section-container{
+    background-image:linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.5)), url('https://akamai.sscdn.co/uploadfile/letras/fotos/d/1/f/0/d1f008e8005a2eef6261f3c3526040c8.jpg');
+    background-position: 20% 40%;
+    opacity: 1;
+    padding-top: 8%;
+    padding-bottom: 10%;
+    display: flex;
+    flex-direction: column;
+
+}
+#section-container h1{
+    font-size: 5rem;
+    text-align: center;
+    font-style: oblique;
+    color:aliceblue;
+    text-shadow: 1px 2px  coral;
+}
+
+
+#biografia{
+    padding-top: 8%;
+    background-color: #ECDBCF;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+.nombre{
+    font-size: 1.3rem;
+    padding-top: 4%;
+    margin-right: 55%;
+    font-weight: bold;
+    color:#3F2B4B;
+    text-shadow: 1px 1px white;
+    
+}
+.nacimiento{
+    font-size: 1.3rem;
+    padding-top: 1.5%;
+    margin-right: 60%;
+    font-weight: bold;
+    color:#3F2B4B;
+    text-shadow: 1px 1px white;
+}
+.ocupacion{
+    font-size: 1.3rem;
+    padding-top: 1.5%;
+    margin-right: 55%;
+    font-weight: bold;
+    color:#3F2B4B;
+    text-shadow: 1px 1px white;
+}
+.vida{
+    font-size: 1.3rem;
+    padding-top: 1.5%;
+    text-align: justify;
+    margin-right: 55%;
+    padding-left: 8%;
+}
+.video{
+    margin-top: -280px;
+    margin-left: 40%;
+    padding-bottom: 8%;
+}
+.homebio{
+   margin-left: 50px;
+}
+#biografia h2{
+    font-size: 4rem;
+    text-align: center;
+    font-style: oblique;
+    color:aliceblue;
+    text-shadow: 1px 2px  burlywood;
+}
+
+
+#album{
+    padding-top: 8%;
+    background-color: #D8A5B6;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+#album h2{
+    font-size: 4rem;
+    text-align: center;
+    font-style: oblique;
+    color:aliceblue;
+    text-shadow: 1px 2px  burlywood;
+}
+#album h3{
+    color: #9D6A5D;
+    font-style: oblique;
+    font-size: 1.8rem;
+    margin-top: -35px;
+    margin-right: 60%;
+    margin-left: 10%;
+    text-shadow: 1px 1px white;
+    background-color: #ECDBCF;
+}
+.cd-1{
+    margin-top: 5%;
+    margin-right:75%;
+}
+.cd-2{
+    margin-top: 5%;
+    margin-right:75%;
+}
+.cd-3{
+    margin-top: 5%;
+    margin-right:75%;
+}
+.cd-4{
+    margin-top: 5%;
+    margin-right:75%;
+}
+.cd-5{
+    margin-top: 5%;
+    margin-right:75%;
+}
+.cd-6{
+    margin-top: 5%;
+    margin-right:75%;
+}
+.cd-7{
+    margin-top: 5%;
+    margin-right:75%;
+}
+.imgicon-1{
+    margin-right: 10%;
+    margin-top: -8%;
+}
+.imgicon-2{
+    margin-right: 10%;
+    margin-top: -8%;
+}
+.imgicon-3{
+    margin-right: 10%;
+    margin-top: -8%;
+}
+.imgicon-4{
+    margin-right: 10%;
+    margin-top: -8%;
+}
+.imgicon-5{
+    margin-right: 10%;
+    margin-top: -8%;
+}
+.imgicon-6{
+    margin-right: 10%;
+    margin-top: -8%;
+}
+.imgicon-7{
+    margin-right: 10%;
+    margin-top: -8%;
+}
+.imgmel{
+    margin-left: 50%;
+    margin-top: -52%;
+    
+}
+
+
+#albmdoll {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #D1D5CA;
+    display:flex;
+    flex-direction: column;
+}
+#albmdoll h2{
+    font-size: 4rem;
+    text-align: center;
+    font-style: oblique;
+    color:white;
+    text-shadow: 1px 2px  #63796B;
+}
+.dollinfo{
+    font-size: 1.3rem;
+    padding-top: 4%;
+    text-align: justify;
+    margin-right: 55%;
+    padding-left: 8%;
+}
+.dollimg{
+    margin-left: 60%;
+    margin-top: -370px;
+    margin-bottom: 100px;
+}
+
+
+#albmcry {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #C0A7BE;
+    display:flex;
+    flex-direction: column;
+}
+#albmcry h2{
+    font-size: 4rem;
+    text-align: center;
+    font-style: oblique;
+    color:white;
+    text-shadow: 1px 2px #588DC3;
+}
+.cryinfo{
+    font-size: 1.3rem;
+    padding-top: 4%;
+    text-align: justify;
+    margin-right: 55%;
+    padding-left: 8%;
+    margin-top: 80px;
+}
+.cryimg{
+    margin-left: 60%;
+    margin-top: -250px;
+    margin-bottom: 100px;
+}
+
+
+#albmsoap {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #838374;
+    display:flex;
+    flex-direction: column;
+}
+#albmsoap h2{
+    font-size: 4rem;
+    text-align: center;
+    font-style: oblique;
+    color: white;
+    text-shadow: 1px 2px #3A3227;
+}
+.soapinfo{
+    font-size: 1.3rem;
+    padding-top: 4%;
+    text-align: justify;
+    margin-right: 55%;
+    padding-left: 8%;
+    margin-top: 80px;
+}
+.soapimg{
+    margin-left: 60%;
+    margin-top: -280px;
+    margin-bottom: 100px;
+}
+
+
+#albmcrys {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #964647;
+    display:flex;
+    flex-direction: column;
+}
+#albmcrys h2{
+    font-size: 4rem;
+    text-align: center;
+    font-style: oblique;
+    color: white;
+    text-shadow: 1px 2px #CFA9A2;
+}
+.cryshouseinfo{
+    font-size: 1.3rem;
+    padding-top: 4%;
+    text-align: justify;
+    margin-right: 55%;
+    padding-left: 8%;
+    margin-top: 80px;
+}
+.crysimg{
+    margin-left: 60%;
+    margin-top: -280px;
+    margin-bottom: 100px;
+}
+
+
+#albmpity {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #A68A7F;
+    display:flex;
+    flex-direction: column;
+}
+#albmpity h2{
+    font-size: 4rem;
+    text-align: center;
+    font-style: oblique;
+    color: white;
+    text-shadow: 1px 2px #5E2720;
+}
+.pityinfo{
+    font-size: 1.3rem;
+    padding-top: 4%;
+    text-align: justify;
+    margin-right: 55%;
+    padding-left: 8%;
+    margin-top: 90px;
+}
+.pityimg{
+    margin-left: 60%;
+    margin-top: -260px;
+    margin-bottom: 100px;
+}
+
+
+#albmk12 {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #B8C9CF;
+    display:flex;
+    flex-direction: column;
+}
+#albmk12 h2{
+    font-size: 4rem;
+    text-align: center;
+    font-style: oblique;
+    color: white;
+    text-shadow: 1px 2px #3D3E3B;
+}
+.k12info{
+    font-size: 1.3rem;
+    padding-top: 2%;
+    text-align: justify;
+    margin-right: 55%;
+    padding-left: 8%;
+    margin-top: 90px;
+}
+.k12img{
+    margin-left: 60%;
+    margin-top: -270px;
+    margin-bottom: 100px;
+}
+
+
+#albmafter {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-color: #A5737A;
+    display:flex;
+    flex-direction: column;
+}
+#albmafter h2{
+    font-size: 4rem;
+    text-align: center;
+    font-style: oblique;
+    color: white;
+    text-shadow: 1px 2px #CBAE97;
+}
+.afterinfo{
+    font-size: 1.3rem;
+    padding-top: 2%;
+    text-align: justify;
+    margin-right: 55%;
+    padding-left: 8%;
+    margin-top: 130px;
+}
+.afterimg{
+    margin-left: 60%;
+    margin-top: -230px;
+    margin-bottom: 100px;
+}
+
+
+#formulario{
+    padding-top: 5%;
+    background-color:#ECDBCF;
+    padding-bottom: 8%;
+    display: flex;
+    flex-direction: column;
+}
+#formulario h2{
+    font-size: 4rem;
+    text-align: center;
+    font-style: oblique;
+    color: white;
+    text-shadow: 1px 2px #CBAE97;
+}
+#formulario h3{
+    font-style: oblique;
+    color: #9D6A5D;
+    margin-top: 3%;
+    font-size: 2rem;
+    text-align: center;
+    top: 10px;
+    left: 10px;
+    margin-bottom: -1.5%;
+}
+.contacto{
+    background-color: white;
+    background-position-x: 2%;
+}
+.botnom{
+    margin-top: 2%;
+    margin-left: 42%;
+    border: 2px solid #9D6A5D;
+    color: #9D6A5D;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px -1px #9D6A5D;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.botcon{
+    margin-top: 2%;
+    margin-left: 42%;
+    border: 2px solid #9D6A5D;
+    color: #9D6A5D;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px -1px #9D6A5D;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.botemail{
+    margin-top: 2%;
+    margin-left: 42%;
+    border: 2px solid #9D6A5D;
+    color: #9D6A5D;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px -1px #9D6A5D;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.botsend{
+    font-style: oblique;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    margin-top: 4%;
+    margin-left: 44.5%;
+    font-weight: bold;
+    background: green;
+    border: 2px solid white;
+    color: white;
+    border-radius: 30px;
+    box-shadow: 0px 0px 5px -1px #9D6A5D;
+}
+
+
+#referencias{
+    padding-top: 5%;
+    background-color: #D8A5B6;
+    padding-bottom: 5%;
+    display: flex;
+    flex-direction: column;
+}
+#referencias h2{
+    font-size: 4rem;
+    text-align: center;
+    font-style: oblique;
+    color: white;
+    text-shadow: 1px 2px #9D6A5D;
+    padding-bottom: 2%;
+}
+.ref1{
+    font-size: 1.3rem;
+    padding-top: 3%;
+    text-align: justify;
+    margin-right: 46%;
+    padding-left: 8%;
+    margin-top: 3%;
+    background-color: #D4C1C8;
+}
+.ref2{
+    font-size: 1.3rem;
+    padding-top: 2%;
+    text-align: justify;
+    margin-right: 46%;
+    padding-left: 8%;
+    margin-top: 3%;
+    background-color: #D4C1C8;
+}
+.ref3{
+    font-size: 1.3rem;
+    padding-top: 2%;
+    text-align: justify;
+    margin-right: 46%;
+    padding-left: 8%;
+    margin-top: 3%;
+    background-color: #D4C1C8;
+}
+.imgportals{
+    margin-left: 65%;
+    margin-top: -340px;
+    margin-bottom: 100px;
+}
+
+
+#pie{
+    padding-top: 2%;
+    background-color: white;
+    padding-bottom: 1%;
+    display: flex;
+    flex-direction: column;
+}
+.autor{
+    font-style: oblique;
+    font-size: 1.5rem;
+    padding-top: 2%;
+    text-align: left;
+    margin-left: 5%;
+}
+.correoau{
+    font-style: oblique;
+    font-size: 1.5rem;
+    padding-top: 2%;
+    text-align: left;
+    margin-left: 5%;
+}
+.anocrea{
+    font-style: oblique;
+    font-size: 1.5rem;
+    padding-top: 2%;
+    text-align: left;
+    margin-left: 5%;
+}
+
+/*MEDIA QUARY*/
+
+/*BARRA DE NAVEGACIÓN*/
+@media(min-width: 480px){
+    #navegacion h2{
+        font-size: 1rem;
+    }
+    .biografia{
+        margin-right: 1%;
+        padding: 2px 10px;
+    }
+    .album{
+        margin-right: 1%;
+        padding: 2px 10px;
+    }
+    .formulario{
+        margin-left: 1%;
+        padding: 2px 10px;
+    }
+    .referencias{
+        margin-left: 1%;
+        padding: 2px 10px;
+    }
+}
+@media(min-width: 560px){
+    #navegacion h2{
+        font-size: 1rem;
+    }
+    .biografia{
+        margin-right: 4%;
+        padding: 2px 10px;
+    }
+    .album{
+        margin-right: 4%;
+        padding: 2px 10px;
+    }
+    .formulario{
+        margin-left: 4%;
+        padding: 2px 10px;
+    }
+    .referencias{
+        margin-left: 4%;
+        padding: 2px 10px;
+    }
+}
+@media(min-width: 600px){
+    #navegacion h2{
+        font-size: 1rem;
+    }
+    .biografia{
+        margin-right: 5%;
+        padding: 2px 10px;
+    }
+    .album{
+        margin-right: 5%;
+        padding: 2px 10px;
+    }
+    .formulario{
+        margin-left: 5%;
+        padding: 2px 10px;
+    }
+    .referencias{
+        margin-left: 5%;
+        padding: 2px 10px;
+    }
+}
+@media(min-width: 688px){
+    #navegacion h2{
+        font-size: 1rem;
+    }
+    .biografia{
+        margin-right: 6%;
+        padding: 2px 15px;
+    }
+    .album{
+        margin-right: 6%;
+        padding: 2px 15px;
+    }
+    .formulario{
+        margin-left: 6%;
+        padding: 2px 15px;
+    }
+    .referencias{
+        margin-left: 6%;
+        padding: 2px 15px;
+    }
+}
+@media(min-width: 730px){
+    #navegacion h2{
+        font-size: 1.3rem;
+    }
+    .biografia{
+        margin-right: 6%;
+        padding: 2px 10px;
+    }
+    .album{
+        margin-right: 6%;
+        padding: 2px 10px;
+    }
+    .formulario{
+        margin-left: 6%;
+        padding: 2px 10px;
+    }
+    .referencias{
+        margin-left: 6%;
+        padding: 2px 10px;
+    }
+}
+@media(min-width: 768px){
+    #navegacion h2{
+        font-size: 1.3rem;
+    }
+    .biografia{
+        margin-right: 3%;
+        padding: 2px 25px;
+    }
+    .album{
+        margin-right: 3%;
+        padding: 2px 25px;
+    }
+    .formulario{
+        margin-left: 3%;
+        padding: 2px 25px;
+    }
+    .referencias{
+        margin-left: 3%;
+        padding: 2px 25px;
+    }
+}
+@media(min-width: 768px){
+    #navegacion h2{
+        font-size: 1.3rem;
+    }
+    .biografia{
+        margin-right: 5%;
+        padding: 2px 25px;
+    }
+    .album{
+        margin-right: 5%;
+        padding: 2px 25px;
+    }
+    .formulario{
+        margin-left: 5%;
+        padding: 2px 25px;
+    }
+    .referencias{
+        margin-left: 5%;
+        padding: 2px 25px;
+    }
+}
+@media(min-width: 930px){
+    #navegacion h2{
+        font-size: 1.3rem;
+    }
+    .biografia{
+        margin-right: 7%;
+        padding: 2px 25px;
+    }
+    .album{
+        margin-right: 7%;
+        padding: 2px 25px;
+    }
+    .formulario{
+        margin-left: 7%;
+        padding: 2px 25px;
+    }
+    .referencias{
+        margin-left: 7%;
+        padding: 2px 25px;
+    }
+}
+@media(min-width: 1024px){
+    #navegacion h2{
+        font-size: 1.4rem;
+    }
+    .biografia{
+        margin-right: 6%;
+        padding: 10px 35px;
+    }
+    .album{
+        margin-right: 6%;
+        padding: 10px 35px;
+    }
+    .formulario{
+        margin-left: 6%;
+        padding: 10px 35px;
+    }
+    .referencias{
+        margin-left: 6%;
+        padding: 10px 35px;
+    }
+}
+@media(min-width: 1136px){
+    #navegacion h2{
+        font-size: 1.4rem;
+    }
+    .biografia{
+        margin-right: 7%;
+        padding: 10px 35px;
+    }
+    .album{
+        margin-right: 7%;
+        padding: 10px 35px;
+    }
+    .formulario{
+        margin-left: 7%;
+        padding: 10px 35px;
+    }
+    .referencias{
+        margin-left: 7%;
+        padding: 10px 35px;
+    }
+}
+@media(min-width: 1244px){
+    #navegacion h2{
+        font-size: 1.4rem;
+    }
+    .biografia{
+        margin-right: 9%;
+        padding: 10px 55px;
+    }
+    .album{
+        margin-right: 9%;
+        padding: 10px 55px;
+    }
+    .formulario{
+        margin-left: 9%;
+        padding: 10px 55px;
+    }
+    .referencias{
+        margin-left: 9%;
+        padding: 10px 55px;
+    }
+}
+
+/*SECTION CONTAINER*/
+@media(min-width: 480px){
+    #section-container{
+        background-position: 50% 70%;
+    }
+}
+
+/*BIOGRAFÍA*/
+@media(min-width: 480px){
+    .video{
+        margin-top: 10px;
+        margin-left: 4%;
+        display: flex;
+        flex-direction: column;
+    }
+    .nombre{
+        font-size: 1rem;
+        padding-top: 4%;
+        margin-right: 10%;
+        text-align: center;
+        
+    }
+    .nacimiento{
+        font-size: 1rem;
+        padding-top: 4%;
+        margin-right: 10%;
+        text-align: center;
+    }
+    .ocupacion{
+        font-size: 1rem;
+        padding-top: 4%;
+        margin-right: 10%;
+        text-align: center;
+    }
+    .vida{
+        font-size: 1rem;
+        padding-top: 4%;
+        margin-right: 10%;
+        text-align: center;
+    }
+}
+@media(min-width: 768px){
+    .video{
+        margin-top: 20px;
+        margin-left: 20%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .nombre{
+        font-size: 1rem;
+        padding-top: 4%;
+        margin-right: 5%;
+        text-align: center;
+        
+    }
+    .nacimiento{
+        font-size: 1rem;
+        padding-top: 4%;
+        margin-right: 5%;
+        text-align: center;
+    }
+    .ocupacion{
+        font-size: 1rem;
+        padding-top: 4%;
+        margin-right: 5%;
+        text-align: center;
+    }
+    .vida{
+        font-size: 1rem;
+        padding-top: 4%;
+        margin-right: 8%;
+        text-align: center;
+    }
+}
+@media(min-width: 1024px){
+    .video{
+        margin-top: -280px;
+        margin-left: 50%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+    .nombre{
+        font-size: 1.3rem;
+        padding-top: 1.5%;
+        margin-right: 55%;
+        text-align: center;
+        
+    }
+    .nacimiento{
+        font-size: 1.3rem;
+    padding-top: 1.5%;
+    margin-right: 55%;
+        text-align: center;
+    }
+    .ocupacion{
+        font-size: 1.3rem;
+    padding-top: 1.5%;
+    margin-right: 55%;
+        text-align: center;
+    }
+    .vida{
+        font-size: 1.3rem;
+        padding-top: 1.5%;
+        text-align: justify;
+        margin-right: 55%;
+        padding-left: 8%;
+    }
+}
+
+/*ALBUM'S*/
+@media(min-width: 480px){
+    .imgicon-1{
+        margin-right: -50%;
+        margin-top: -10%;
+    }
+    .imgicon-2{
+        margin-right: -50%;
+        margin-top: -10%;
+    }
+    .imgicon-3{
+        margin-right: -50%;
+        margin-top: -10%;
+    }
+    .imgicon-4{
+        margin-right: -50%;
+        margin-top: -10%;
+    }
+    .imgicon-5{
+        margin-right: -50%;
+        margin-top: -10%;
+    }
+    .imgicon-6{
+        margin-right: -50%;
+        margin-top: -10%;
+    }
+    .imgicon-7{
+        margin-right: -50%;
+        margin-top: -10%;
+    }
+    .imgmel{
+        margin-left: -37%;
+        margin-top: 10%;
+    }
+    #album h3{
+        margin-right: 38%;
+    }
+}
+@media(min-width: 768px){
+    .imgicon-1{
+        margin-right: -60%;
+        margin-top: -8%;
+    }
+    .imgicon-2{
+        margin-right: -60%;
+        margin-top: -8%;
+    }
+    .imgicon-3{
+        margin-right: -60%;
+        margin-top: -8%;
+    }
+    .imgicon-4{
+        margin-right: -60%;
+        margin-top: -8%;
+    }
+    .imgicon-5{
+        margin-right: -60%;
+        margin-top: -8%;
+    }
+    .imgicon-6{
+        margin-right: -60%;
+        margin-top: -8%;
+    }
+    .imgicon-7{
+        margin-right: -60%;
+        margin-top: -8%;
+    }
+    .imgmel{
+        margin-left: -10%;
+        margin-top: 10%;
+    }
+    #album h3{
+        margin-right: 30%;
+    }
+}
+@media(min-width: 1024px){
+    .imgicon-1{
+        margin-right: 10%;
+        margin-top: -8%;
+    }
+    .imgicon-2{
+        margin-right: 10%;
+        margin-top: -8%;
+    }
+    .imgicon-3{
+        margin-right: 10%;
+        margin-top: -8%;
+    }
+    .imgicon-4{
+        margin-right: 10%;
+        margin-top: -8%;
+    }
+    .imgicon-5{
+        margin-right: 10%;
+    margin-top: -8%;
+    }
+    .imgicon-6{
+        margin-right: 10%;
+        margin-top: -8%;
+    }
+    .imgicon-7{
+        margin-right: 10%;
+        margin-top: -8%;
+    }
+    .imgmel{
+        margin-left: 50%;
+        margin-top: -52%;
+    }
+    #album h3{
+        margin-right: 60%;
+    }
+}
+
+/*DOLLHOUSE*/
+@media(min-width: 480px){
+    .dollinfo{
+        font-size: 1rem;
+        padding-top: 6%;
+        margin-right: 12%;
+    }
+    .dollimg{
+        margin-left: 12%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+@media(min-width: 768px){
+    .dollinfo{
+        font-size: 1.3rem;
+        padding-top: 6%;
+        margin-right: 12%;
+    }
+    .dollimg{
+        margin-left: 27%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+@media(min-width: 1024px){
+    .dollinfo{
+        font-size: 1.3rem;
+        padding-top: 4%;
+        text-align: justify;
+        margin-right: 55%;
+        padding-left: 8%;
+    }
+    .dollimg{
+        margin-left: 60%;
+        margin-top: -370px;
+        margin-bottom: 100px;
+    }
+}
+
+/*CRYBABY*/
+@media(min-width: 480px){
+    .cryinfo{
+        font-size: 1rem;
+        margin-right: 12%;
+    }
+    .cryimg{
+       margin-left: 12%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+}
+@media(min-width: 768px){
+    .cryinfo{
+        font-size: 1.3rem;
+        padding-top: 6%;
+        margin-right: 12%;
+    }
+    .cryimg{
+        margin-left: 27%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+
+}
+@media(min-width: 1024px){
+    .cryinfo{
+        font-size: 1.3rem;
+        padding-top: 4%;
+        text-align: justify;
+        margin-right: 55%;
+        padding-left: 8%;
+        margin-top: 80px;
+    }
+    .cryimg{
+        margin-left: 60%;
+        margin-top: -250px;
+        margin-bottom: 100px;
+    }
+
+}
+
+/*SOAP*/
+@media(min-width: 480px){
+    .soapinfo{
+        font-size: 1rem;
+        padding-top: 6%;
+        margin-right: 12%;
+    }
+    .soapimg{
+        margin-left: 12%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+@media(min-width: 768px){
+    .soapinfo{
+        font-size: 1.3rem;
+        padding-top: 6%;
+        margin-right: 12%;
+    }
+    .soapimg{
+        margin-left: 27%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+@media(min-width: 1024px){
+    .soapinfo{
+        font-size: 1.3rem;
+        padding-top: 4%;
+        text-align: justify;
+        margin-right: 55%;
+        padding-left: 8%;
+        margin-top: 80px;
+    }
+    .soapimg{
+        margin-left: 60%;
+        margin-top: -280px;
+        margin-bottom: 100px;
+    }
+}
+
+/*CRY'S*/
+@media(min-width: 480px){
+    .cryshouseinfo{
+        font-size: 1rem;
+        padding-top: 6%;
+        margin-right: 12%;
+    }
+    .crysimg{
+        margin-left: 12%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+@media(min-width: 768px){
+    .cryshouseinfo{
+        font-size: 1.3rem;
+        padding-top: 6%;
+        margin-right: 12%;
+    }
+    .crysimg{
+        margin-left: 27%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+@media(min-width: 1024px){
+    .cryshouseinfo{
+        font-size: 1.3rem;
+        padding-top: 4%;
+        text-align: justify;
+        margin-right: 55%;
+        padding-left: 8%;
+        margin-top: 80px;
+    }
+    .crysimg{
+        margin-left: 60%;
+        margin-top: -280px;
+        margin-bottom: 100px;
+    }
+}
+
+/*PITY PARTY*/
+@media(min-width: 480px){
+    .pityinfo{
+        font-size: 1rem;
+        padding-top: 6%;
+        margin-right: 12%;
+    }
+    .pityimg{
+        margin-left: 12%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+@media(min-width: 768px){
+    .pityinfo{
+        font-size: 1.3rem;
+        padding-top: 6%;
+        margin-right: 12%;
+    }
+    .pityimg{
+        margin-left: 27%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+@media(min-width: 1024px){
+    .pityinfo{
+        font-size: 1.3rem;
+        padding-top: 4%;
+        text-align: justify;
+        margin-right: 55%;
+        padding-left: 8%;
+        margin-top: 90px;
+    }
+    .pityimg{
+        margin-left: 60%;
+        margin-top: -260px;
+        margin-bottom: 100px;
+    }
+}
+
+/*K-12*/
+@media(min-width: 480px){
+    .k12info{
+        font-size: 1rem;
+        padding-top: 6%;
+        margin-right: 12%;
+    }
+    .k12img{
+        margin-left: 12%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+@media(min-width: 768px){
+    .k12info{
+        font-size: 1.3rem;
+        padding-top: 6%;
+        margin-right: 12%;
+    }
+    .k12img{
+        margin-left: 27%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+@media(min-width: 1024px){
+    .k12info{
+        font-size: 1.3rem;
+        padding-top: 2%;
+        text-align: justify;
+        margin-right: 55%;
+        padding-left: 8%;
+        margin-top: 90px;
+    }
+    .k12img{
+        margin-left: 60%;
+        margin-top: -270px;
+        margin-bottom: 100px;
+    }
+}
+
+/*AFTER SCHOOL*/
+@media(min-width: 480px){
+    .afterinfo{
+        font-size: 1rem;
+        padding-top: 6%;
+        margin-right: 12%;
+    }
+    .afterimg{
+        margin-left: 12%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+@media(min-width: 768px){
+    .afterinfo{
+        font-size: 1.3rem;
+        padding-top: 6%;
+        margin-right: 12%;
+    }
+    .afterimg{
+        margin-left: 27%;
+        margin-top: 40px;
+        margin-bottom: 40px;
+    }
+}
+@media(min-width: 1024px){
+    .afterinfo{
+        font-size: 1.3rem;
+        padding-top: 2%;
+        text-align: justify;
+        margin-right: 55%;
+        padding-left: 8%;
+        margin-top: 130px;
+    }
+    .afterimg{
+        margin-left: 60%;
+        margin-top: -230px;
+        margin-bottom: 100px;
+    }
+}
+
+/*FORMULARIO*/
+@media(min-width: 480px){
+    .botnom{
+        margin-left: 25%;
+    }
+    .botcon{
+        margin-left: 25%;
+    }
+    .botemail{
+        margin-left: 25%;
+    }
+    .botsend{
+        margin-left: 34%;
+    }
+}
+@media(min-width: 768px){
+    .botnom{
+        margin-left: 33.5%;
+    }
+    .botcon{
+        margin-left: 33.5%;
+    }
+    .botemail{
+        margin-left: 33.5%;
+    }
+    .botsend{
+        margin-left: 40%;
+    }
+}
+@media(min-width: 1024px){
+    .botnom{
+        margin-left: 42%;
+    }
+    .botcon{
+        margin-left:  42%;
+    }
+    .botemail{
+        margin-left:  42%;
+    }
+    .botsend{
+        margin-left: 44.5%;
+    }
+}
+
+/*REFERENCIAS*/
+@media(min-width: 480px){
+    .ref1{
+        font-size: 1rem;
+        padding-top: 3%;
+        margin-right: 5%;
+    }
+    .ref2{
+        font-size: 1rem;
+        padding-top: 3%;
+        margin-right: 5%;
+    }
+    .ref3{
+        font-size: 1rem;
+        padding-top: 3%;
+        margin-right: 5%;
+    }
+    .imgportals{
+        margin-left: 10%;
+        margin-top: 60px;
+    }
+}
+@media(min-width: 768px){
+    .ref1{
+        font-size: 1rem;
+        padding-top: 3%;
+        margin-right: 3%;
+    }
+    .ref2{
+        font-size: 1rem;
+        padding-top: 3%;
+        margin-right: 3%;
+    }
+    .ref3{
+        font-size: 1rem;
+        padding-top: 3%;
+        margin-right: 3%;
+    }
+    .imgportals{
+        margin-left: 25%;
+        margin-top: 60px;
+    }
+}
+@media(min-width: 1024px){
+    .ref1{
+        font-size: 1.3rem;
+        padding-top: 3%;
+        margin-right: 46%;
+    }
+    .ref2{
+        font-size: 1.3rem;
+        padding-top: 3%;
+        margin-right: 46%;
+    }
+    .ref3{
+        font-size: 1.3rem;
+        padding-top: 3%;
+        margin-right: 46%;
+    }
+    .imgportals{
+        margin-left: 65%;
+        margin-top: -340px;
+        margin-bottom: 100px;
+    }
+}
